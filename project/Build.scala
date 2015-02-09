@@ -36,7 +36,7 @@ object Build extends Build {
     settings = Project.defaultSettings ++ Seq(
       name := "scala-repo-example",
       organization := "org.example",
-      version := "0.1-SNAPSHOT",
+      version := "0.2-SNAPSHOT",
       scalaVersion := "2.11.4",
       libraryDependencies ++= Dependencies.all,
       resolvers ++= Resolvers.all
